@@ -55,7 +55,7 @@ const ProductDetails = ({ history, match }) => {
         <Meta 
         title={product.name} 
         description={product.description}
-        url={`https://localhost:3000/product/${product._id}`}
+        url={`https://myshop-73y3.onrender.com/product/${product._id}`}
         image={product.image}
         />
         <Row>
